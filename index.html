@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🧑‍💻Toast Notification</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d5edb7e37e.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <h2 class="text-center justify-center flex-auto font-bold text-6xl uppercase underline-offset-4">ZEKE Notification</h2>
+    </div>
+
+    <div class="buttons">
+        <button onclick="showBox(successMsg)" class="bg-blue-500 p-4 m-2 rounded border-collapse hover:bg-blue-200">Success</button>
+        <button onclick="showBox(errorMsg)" class="bg-red-500 p-4 m-2 rounded-b font-semibold hover:bg-red-300">Error</button>
+        <button onclick="showBox(invalidMsg)" class="bg-pink-500 p-4 m-2 rounded font-bold hover:bg-pink-300">Invalid</button>
+    </div>
+
+    <div id="showBox1"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
